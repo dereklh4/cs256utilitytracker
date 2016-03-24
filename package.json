@@ -1,0 +1,14 @@
+{
+  "name": "utility_tracker",
+  "version": "1.0.0",
+  "description": "CS 256 Prototype for Awkwardly Standing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek Hancock",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}

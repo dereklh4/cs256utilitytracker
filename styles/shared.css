@@ -1,0 +1,45 @@
+body {
+    background-color: #f2f4f5;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    /*These are dimensions of smallest iphone*/
+    width: 320px;
+    height: 570px;
+    
+    margin: auto;
+    margin-top: 20px;
+}
+
+img {
+    margin: auto;
+    width: 100%;
+}
+
+.title {
+    margin-top: 0;
+    text-align: center;
+}
+
+.caret {
+    border: 7px solid transparent;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    opacity: 0.5;
+    vertical-align: initial;
+    color: #E91E63;
+}
+.caret.up {
+    border-bottom: 10px solid;
+}
+.caret.right {
+    border-left: 10px solid;
+}
+.caret.down {
+    border-top: 10px solid;
+}
+.caret.left {
+    border-right: 10px solid;
+}

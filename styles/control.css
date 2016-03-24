@@ -1,0 +1,28 @@
+.item > p {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.item-details {
+    display: none;
+    margin-left: 40px;
+}
+
+.item {
+    cursor: pointer;
+    margin-top:10px;
+}
+
+.item > span {
+    margin-bottom:2px;
+}
+
+span.down {
+    vertical-align: text-bottom;
+    margin-right:3px;
+}
+
+.item-cost {
+    float: right;
+}
