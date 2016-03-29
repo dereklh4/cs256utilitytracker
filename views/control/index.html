@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Utility Tracker</title>
-    
+
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <!--Oswald font and shared styles-->
@@ -11,43 +12,62 @@
     <link rel="stylesheet" href="../../styles/shared.css">
     <!--Viewport for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!--Bootstrap Switch-->
     <link rel="stylesheet" href="../../styles/bootstrap-switch.css">
-    
+
     <!--Control Styles-->
     <link rel="stylesheet" href="../../styles/control.css">
 </head>
+
 <body>
     <div class="container">
         <h2 class="title">Control</h2>
-        
+
         <div id="items">
             <div class="item">
                 <span class="caret right"></span>
                 <p class="item-title">Heating/AC</p>
                 <p class="item-cost">-$3.42</p>
-                
-                <div class="item-details">Temperature</div>
+
+                <div class="item-details">
+
+                    Temperature
+                </div>
+
             </div>
-            
+
             <div class="item">
                 <span class="caret right"></span>
                 <p class="item-title">Kitchen</p>
                 <p class="item-cost">-$0.89</p>
-                
+
                 <div class="item-details">
-                    <p>Fan</p>
-                    <p>Lights</p>
+
+                    <div>
+                        Lights
+                        <div class="onoffswitch">
+                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+                            <label class="onoffswitch-label" for="myonoffswitch"></label>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        Fan
+                        <div class="onoffswitch">
+                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+                            <label class="onoffswitch-label" for="myonoffswitch"></label>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
+
+
         </div>
-        
-        
-    </div>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="../../scripts/bootstrap-switch.js"></script>
-    <script src="../../scripts/control.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="../../scripts/control.js"></script>
 </body>
+
 </html>

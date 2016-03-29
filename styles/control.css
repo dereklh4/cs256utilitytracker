@@ -9,6 +9,10 @@
     margin-left: 40px;
 }
 
+.item-details > div {
+    margin-bottom: 10px;
+}
+
 .item {
     cursor: pointer;
     margin-top:10px;
@@ -25,4 +29,8 @@ span.down {
 
 .item-cost {
     float: right;
+}
+
+.onoffswitch {
+    float:right;
 }

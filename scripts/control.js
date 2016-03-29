@@ -1,5 +1,4 @@
-//initialize switches
-$("[name='my-checkbox']").bootstrapSwitch();
+
 
 //click events
 $(".caret").add(".item-title").click(function() {
