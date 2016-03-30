@@ -49,18 +49,18 @@ $(document).ready(function() {
                     $("#graph-img").attr("src", "../../content/graph_water_day.png");
                 }
             }
-            else if (period == "year") { //change these to images of the year, not month.
+            else if (period == "year") {
                 if (type == "all") {
-                    $("#graph-img").attr("src", "../../content/graph_all.png");
+                    $("#graph-img").attr("src", "../../content/graph_all_year.png");
                 }
                 else if (type == "electric") {
-                    $("#graph-img").attr("src", "../../content/graph_electric.png");
+                    $("#graph-img").attr("src", "../../content/graph_electric_year.png");
                 }
                 else if (type == "gas") {
-                    $("#graph-img").attr("src", "../../content/graph_gas.png");
+                    $("#graph-img").attr("src", "../../content/graph_gas_year.png");
                 }
                 else if (type == "water") {
-                    $("#graph-img").attr("src", "../../content/graph_water.png");
+                    $("#graph-img").attr("src", "../../content/graph_water_year.png");
                 }
             }
         }
