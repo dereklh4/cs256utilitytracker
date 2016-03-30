@@ -35,3 +35,17 @@ span.down {
 .Switch {
     float:right;
 }
+
+img {
+    width: initial;
+    height:20px;
+}
+
+.img-div {
+    display:inline-block;
+    float:right;
+}
+
+.temp-degree {
+    margin-left:50px;
+}
