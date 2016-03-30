@@ -14,3 +14,6 @@ Create a pull request, push the changes to master
 Other notes:  
 "git status" to see pending changes (modified files, commited files, etc)  
 
+To do:  
+Add total to control page  
+Add home icon to control and data page  

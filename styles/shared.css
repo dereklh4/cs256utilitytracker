@@ -43,3 +43,7 @@ img {
 .caret.left {
     border-right: 10px solid;
 }
+
+hr {
+    border-top: 1px solid black;
+}

@@ -17,9 +17,24 @@
 <body>
     <div class="container">
         <h2 class="title">Data</h2>
-        
+        <hr>
+        <img id="graph-img" src="../../content/graph_all.png" />
+        <div class="button-container">
+            <span id="time-period-title">Time Period</span>
+            <div class="time-button button">Day</div>
+            <div class="time-button button selected">Month</div>
+            <div class="time-button button">Year</div>
+        </div>
+        <div class="button-container">
+            <span>Category</span>
+            <div class="category-button button selected" id="all">All</div>
+            <div class="category-button button" id="electric">Electric</div>
+            <div class="category-button button" id="gas">Gas</div>
+            <div class="category-button button" id="water">Water</div>
+        </div>
     </div>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="../../scripts/data.js"></script>
 </body>
 </html>

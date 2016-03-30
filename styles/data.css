@@ -1,0 +1,45 @@
+img {
+    width: 100%;
+}
+
+.button-container {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.button {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.time-button {
+    width: 60px;
+    margin-left: 10px;
+}
+
+.category-button {
+    width: 51px;
+    margin-left: 5px;
+}
+
+#electric {
+    border: 1px solid lime;
+}
+
+#gas {
+    border: 1px solid orange;
+}
+
+#water {
+    border: 1px solid blue;
+}
+
+.selected {
+    background-color: #E91E63;
+    color: white;
+}

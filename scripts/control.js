@@ -62,5 +62,5 @@ $(document).ready(function() {
             $(".temp-item-cost").html("-$" + cost.toLocaleString());
         }
     })
-
+    
 });
