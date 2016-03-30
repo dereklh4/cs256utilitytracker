@@ -47,3 +47,16 @@ img {
 hr {
     border-top: 1px solid black;
 }
+
+#home-icon-container {
+    margin: auto;
+    background-color: #0A8C53;
+    height: 40px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+#home-icon-container img {
+    height: 100%;
+    width: 100%;
+}
