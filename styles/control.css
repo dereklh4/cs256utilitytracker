@@ -17,6 +17,10 @@
 .item {
     cursor: pointer;
     margin-top:10px;
+    background-color:lightgrey;
+    padding:5px;
+    padding-bottom:0;
+    border: 1px solid black;
 }
 
 .item > span {
@@ -57,4 +61,8 @@ img {
 .total-cost {
     text-align: center;
     font-size: 20px;
+}
+
+.padding-bottom-5px {
+    padding-bottom: 5px;
 }

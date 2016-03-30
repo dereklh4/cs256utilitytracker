@@ -36,6 +36,8 @@ $(document).ready(function() {
         $(parent).find("span").toggleClass("down");
 
         var visibility = $(parent).find(".item-details").toggle();
+        
+        $(parent).find(".item-details").toggleClass("padding-bottom-5px");
     })
     
     $("#arrow-up").on("click", function() {
