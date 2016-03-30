@@ -23,6 +23,10 @@
     border: 1px solid black;
 }
 
+.item-title {
+    width: 60%;
+}
+
 .item > span {
     margin-bottom:2px;
 }

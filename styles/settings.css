@@ -19,6 +19,7 @@
 input {
     float: right;
     margin-left: 5px;
+    width: 120px;
 }
 
 #submit-password-button {
