@@ -1,0 +1,49 @@
+.item-details {
+    margin-left: 40px;
+    font-size:15px;
+}
+
+.item-details > div {
+    margin-top: 10px;
+}
+
+.password-details > div {
+    text-align: right;
+}
+
+.Switch {
+    float: right;
+    margin-right: 20px;
+}
+
+input {
+    float: right;
+    margin-left: 5px;
+}
+
+#submit-password-button {
+    margin: auto;
+    background-color: #0A8C53;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:15px;
+}
+
+#faq-button {
+    margin: auto;
+    background-color: #0A8C53;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#home-icon-container {
+    margin-top: 20px;
+}

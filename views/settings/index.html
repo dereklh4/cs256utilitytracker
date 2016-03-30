@@ -9,6 +9,7 @@
     <!--Oswald font and shared styles-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
     <link rel="stylesheet" href="../../styles/shared.css">
+    <link rel="stylesheet" href="../../styles/bootstrap-switch.css">
     <!--Viewport for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -19,8 +20,74 @@
     <div class="container">
         <h2 class="title">Settings</h2>
         
+        <hr>
+        
+        <div>
+            <h4>Smart Automatic Adjustments</h4>
+            <div class="item-details">
+
+                    <div>
+                        Heating
+                        <div class="Switch Round On">
+		                    <div class="Toggle"></div>
+	                    </div>
+                    </div>
+                    
+                    <div>
+                        Lights
+                        <div class="Switch Round On">
+		                    <div class="Toggle"></div>
+	                    </div>
+                    </div>
+                    
+                    <div>
+                        Fan
+                        <div class="Switch Round On">
+		                    <div class="Toggle"></div>
+	                    </div>
+                    </div>
+                </div>
+        </div>
+        
+        <div>
+            <h4>Change Password</h4>
+            <div class="item-details password-details">
+
+                    <div>
+                        Old Password: 
+                        <input type="text">
+                    </div>
+                    
+                    <div>
+                        New Password: 
+                        <input type="text">
+                    </div>
+                    
+                    <div>
+                        Confirm Password: 
+                        <input type="text"> 
+                    </div>
+                    
+            </div>
+            
+            <div id="submit-password-button">Submit</div>
+        </div>
+        
+        <div>
+            <h4>Frequency Asked Questions</h4>
+            
+            <div id="faq-button">FAQ</div>
+        </div>
+        
+        <a href="/">
+            <div id="home-icon-container">
+                <img src="../../content/home-icon.svg">
+            </div>
+        </a>
+        
     </div>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="../../scripts/settings.js"></script>
 </body>
 </html>
