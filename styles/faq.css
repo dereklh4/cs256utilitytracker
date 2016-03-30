@@ -1,0 +1,41 @@
+.item > p {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.item-details {
+    display: none;
+    margin-left: 40px;
+    font-size:15px;
+}
+
+.item-details > div {
+    margin-bottom: 10px;
+}
+
+.item {
+    cursor: pointer;
+    margin-top:10px;
+    background-color:lightgrey;
+    padding:5px;
+    padding-bottom:0;
+    border: 1px solid black;
+}
+
+.item > span {
+    margin-bottom:2px;
+}
+
+span.down {
+    vertical-align: text-bottom;
+    margin-right:3px;
+}
+
+#home-icon-container {
+    margin-top: 40px;
+}
+
+.padding-bottom-5px {
+    padding-bottom: 5px;
+}
