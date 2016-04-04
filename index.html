@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Utility Tracker</title>
-    
+
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <!--Oswald font and shared styles-->
@@ -11,24 +12,41 @@
     <link rel="stylesheet" href="./styles/shared.css">
     <!--Viewport for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <link rel="stylesheet" href="./styles/home.css">
 </head>
+
 <body>
     <div class="container">
         <h2 class="title">Utility Tracker</h2>
-        
+
         <div id="gauge">
-             <img src="./content/gauge.png">
+            <img src="./content/gauge.png">
         </div>
-        
+
         <div id="buttons">
             <a class="button" href="./views/control">Control</a>
             <a class="button" href="./views/data">Data</a>
             <a class="button" href="./views/settings">Settings</a>
         </div>
         
+        <a id="trigger_popup" href="#popup1"></a>
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Utility Tracker Welcomes You!</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    Welcome to utilty tracker! Make adjustments and see your spending gauge adjust accordingly. Save away!
+                </div>
+            </div>
+        </div>
+
     </div>
     
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="./scripts/home.js"></script>
+
 </body>
+
 </html>
