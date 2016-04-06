@@ -13,17 +13,17 @@ $(document).ready(function() {
             total_value += item_value;
             control_total_value += item_value;
             item_cost_element.attr("id", total_value.toString());
-            item_cost_element.html("-$" + total_value.toLocaleString());
+            item_cost_element.html("$" + total_value.toLocaleString());
             $(".total-cost").attr("id", control_total_value.toPrecision(3));
-            $(".total-cost").html("Total: -$" + control_total_value.toPrecision(3) + " per hour");
+            $(".total-cost").html("Total: $" + control_total_value.toPrecision(3) + " per hour");
         }
         else {
             total_value -= item_value;
             control_total_value -= item_value;
             item_cost_element.attr("id", total_value.toString());
-            item_cost_element.html("-$" + total_value.toLocaleString());
+            item_cost_element.html("$" + total_value.toLocaleString());
             $(".total-cost").attr("id", control_total_value.toPrecision(3));
-            $(".total-cost").html("Total: -$" + control_total_value.toPrecision(3) + " per hour");
+            $(".total-cost").html("Total: $" + control_total_value.toPrecision(3) + " per hour");
         }
         console.log(total_value);
     });
@@ -53,11 +53,11 @@ $(document).ready(function() {
             var cost = Number($(".temp-item-cost").attr("id"));
             cost += 0.24;
             $(".temp-item-cost").attr("id", cost.toLocaleString());
-            $(".temp-item-cost").html("-$" + cost.toLocaleString());
+            $(".temp-item-cost").html("$" + cost.toLocaleString());
             
             control_total_value += 0.24;
             $(".total-cost").attr("id", control_total_value.toPrecision(3));
-            $(".total-cost").html("Total: -$" + control_total_value.toPrecision(3) + " per hour");
+            $(".total-cost").html("Total: $" + control_total_value.toPrecision(3) + " per hour");
         }
     })
     
@@ -78,7 +78,7 @@ $(document).ready(function() {
             
             control_total_value -= 0.24;
             $(".total-cost").attr("id", control_total_value.toPrecision(3));
-            $(".total-cost").html("Total: -$" + control_total_value.toPrecision(3) + " per hour");
+            $(".total-cost").html("Total: $" + control_total_value.toPrecision(3) + " per hour");
         }
     })
     
