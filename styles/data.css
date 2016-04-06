@@ -44,6 +44,21 @@ img {
     color: white;
 }
 
+#electric.selected {
+    background-color: limegreen;
+    opacity:0.9;
+} 
+
+#gas.selected {
+    background-color: orange;
+    opacity:0.9;
+} 
+
+#water.selected {
+    background-color: blue;
+    opacity:0.9;
+} 
+
 #home-icon-container {
     margin-top: 40px;
 }
