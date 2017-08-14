@@ -1,3 +1,8 @@
+Sample Screenshots:
+![Low Res Screenshot 1](/screenshots/lowres_screenshot_1.png)
+![Low Res Screenshot 2](/screenshots/lowres_screenshot_2.png)
+![Low Res Screenshot 3](/screenshots/lowres_screenshot_3.png)
+
 To Start Project:
 
 Clone the project "git clone https://github.com/dereklh4/cs256utilitytracker.git"  
